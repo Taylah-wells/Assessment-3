@@ -1,7 +1,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    color: black;
+    color: whitesmoke;
     background: grey;
 }
 header div {
@@ -9,6 +9,11 @@ header div {
     justify-content: space-between;
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 4rem;
+}
+header div i {
+    font-size: 5rem;
+    margin: 1rem;
 }
 #footer {
     background-color: black;
