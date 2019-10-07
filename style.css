@@ -2,7 +2,7 @@ header {
     display: flex;
     justify-content: space-between;
     color: whitesmoke;
-    background: grey;
+    background: burlywood;
 }
 header div {
     display: flex;
@@ -19,7 +19,13 @@ header nav {
     padding: 2rem 3rem;
 }
 nav ul li {
-    
+    list-style: none;
+    display: inline;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 2px;
+
 }
 #footer {
     background-color: black;
