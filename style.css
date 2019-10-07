@@ -15,6 +15,12 @@ header div i {
     font-size: 5rem;
     margin: 1rem;
 }
+header nav {
+    padding: 2rem 3rem;
+}
+nav ul li {
+    
+}
 #footer {
     background-color: black;
     width: 100%;
