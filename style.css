@@ -1,44 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     color: whitesmoke;
     background: burlywood;
+    
+    
+    
 }
-header div {
+/* header div {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 4rem;
-}
-header div i {
-    font-size: 5rem;
-    margin: 1rem;
-}
-header nav {
+    
+    padding: 10px;
+} */
+   
+header {
     padding: 2rem 3rem;
-}
-nav ul li {
+   
+ }
+
+ul {
     list-style: none;
-    display: inline;
+    text-align: center;
+}
+
+li  {
+    display: inline-block;
     text-transform: uppercase;
-    font-weight: bold;
+    
     letter-spacing: 2px;
     padding: 2px;
+}
+a {
+    color: rgb(0, 0, 0);
+}
+nav {
+    position: absolute;
+    font-weight: bold;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    
+    
+}
 
-}
-nav li a{
-    padding: 1rem;
-    margin: 1rem;
-    text-decoration: none;
-    color: white;
-    transition: all 250ms ease-in;
-}
-nav li a:hover{
-    background: grey;
+.box {
+    height: 1000px;
+    border-bottom: 1px solid gray;
+    padding-top: 50px;
     color: black;
-
+    font-size: 50px;
+    text-align: center;
 }
+
 .titles{
     color: black;
     text-align: center;
@@ -59,4 +83,28 @@ nav li a:hover{
     background-color: black;
     width: 100%;
     height: 50px;
+}
+
+#aboutme{
+background-color: cornsilk;
+}
+
+#experience{
+background-color: cornsilk;
+}
+
+#blog{
+background-color: cornsilk;
+}
+
+.icon {
+   height: 5px; 
+    width: 5px;
+}
+
+.icon i {
+    width: 2px;
+    height: 2px;
+   
+    color: black;
 }
