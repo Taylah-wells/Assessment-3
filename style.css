@@ -17,6 +17,13 @@
     
    
 }
+.skillslist {
+    
+    list-style: disc;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: black;
+}
 .experience2 {
     width: calc(100% /3);
     float: left;
@@ -158,6 +165,7 @@ color: black;
 
 #experience{
 background-color: black;
+height: 600px;
 
 }
 
